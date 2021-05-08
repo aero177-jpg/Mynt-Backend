@@ -33,7 +33,7 @@ const {
   getBudsjettposter,
 } = require("./services/database-budsjettpost");
 
-const port = process.env.PORT || "3001";
+const port = process.env.PORT || "3000";
 const secret = "somethingverysecret1234";
 
 const app = express();
